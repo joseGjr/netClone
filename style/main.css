@@ -1,0 +1,113 @@
+
+:root{
+    --orange:#db8d18;
+    --black:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:var(--black);
+    font-family: 'Righteous', cursive;
+    color: white;
+    
+}
+
+header.conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.logo{
+    margin-left: 10px;
+    color:var(--black);
+    font-size: 50px;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 1px 1px 2px var(--orange);
+
+}
+header.logo{
+    margin-left: 5px;
+    color:var(--orange);
+    font-family: 'Arial Black',times;
+    font-size: 40px;
+
+}
+header nav a{
+text-decoration: none;
+color:white;
+margin-right:15px;
+font-size: 18px;
+display: flex;
+
+}
+
+header nav a:hover{
+    color:var(--orange);
+}
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%),url('/img/narutolastfundo.jpg');
+    height: 500px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal.descricao{
+    margin-bottom: 90px;
+    margin-top: 10px;
+}
+.titulo{
+    margin-top:10%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS',  Arial, sans-serif;
+    text-shadow: 1px 1px 2px var(--orange); 
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    font-size: 12px;
+    border: none;
+    color: orange;
+    padding: 15px 30px;
+    margin-top:90px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao:hover{
+    background-color: var(--orange);
+    color: var(--black);
+}
+.botao i{
+    margin-right: 10px;
+}
+.conteiner{
+    margin-left: 20px;
+}
+.filme-principal .conteiner{
+    width: 70%;
+}
+
+.boxfilme{
+    width: 100%;
+    height: 100%;
+    display: block ;
+   
+}
+.carrosel-filmes{
+    margin-top: 5px;
+    color: var(--orange);
+}
